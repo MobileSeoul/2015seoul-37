@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.benjamin.snowday" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme" >
+        <activity
+            android:name=".MainActivity1"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.benjamin.snowday.MainActivity1" />
+        </activity>
+        <activity
+            android:name=".MountainList"
+            android:label="서울 산 날씨"
+            android:parentActivityName=".MainActivity1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Output"
+            android:label="북한산"
+            android:parentActivityName=".MountainList"
+            android:screenOrientation="portrait" >
+
+            <!-- The meta-data element is needed for versions lower than 4.1 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.benjamin.snowday.Output" />
+        </activity>
+        <activity
+            android:name=".Output1"
+            android:label="수락산"
+            android:parentActivityName=".MountainList"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Output2"
+            android:label="불암산"
+            android:parentActivityName=".MountainList" >
+        </activity>
+        <activity
+            android:name=".Output3"
+            android:label="아차산"
+            android:parentActivityName=".MountainList"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Output4"
+            android:label="청계산"
+            android:parentActivityName=".MountainList"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Camera"
+
+            android:label="서울 산 모습"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Stopwatch"
+            android:label="서울 산 안내도"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Splash" >
+        </activity>
+        <activity
+            android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.nhn.android.naverlogin.ui.OAuthLoginInAppBrowserActivity"
+            android:label="OAuth2.0 In-app" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Bm"
+            android:label="@string/title_activity_bm" >
+        </activity>
+        <activity android:name=".Sm" >
+        </activity>
+        <activity android:name=".Bbm" >
+        </activity>
+        <activity android:name=".Am" >
+        </activity>
+        <activity android:name=".Cm" >
+        </activity>
+        <activity
+            android:name=".Bmap"
+            android:label="@string/title_activity_bmap" >
+        </activity>
+        <activity
+            android:name=".Smap"
+            android:label="@string/title_activity_smap" >
+        </activity>
+        <activity
+            android:name=".Amap"
+            android:label="@string/title_activity_amap" >
+        </activity>
+        <activity
+            android:name=".Cmap"
+            android:label="@string/title_activity_cmap" >
+        </activity>
+        <activity
+            android:name=".B1map"
+            android:label="@string/title_activity_b1map" >
+        </activity>
+    </application>
+
+</manifest>

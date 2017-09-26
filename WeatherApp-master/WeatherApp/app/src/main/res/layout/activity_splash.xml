@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="@drawable/main4"
+    >
+
+    <!--<com.example.benjamin.snowday.ThreadAnimationView1
+        android:paddingTop="130dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:paddingLeft="50dp"
+
+        />-->
+
+   <com.example.benjamin.snowday.ThreadAnimationView
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       android:layout_marginTop="400dp"
+       />
+
+
+
+<!--
+
+    <com.example.benjamin.snowday.ThreadAnimationView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+-->
+
+    <!--<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title"
+        android:paddingTop="50dp"
+
+        />
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/m1"
+        android:scaleType="fitXY"
+        android:paddingBottom="50dp"
+
+        />-->
+</LinearLayout>

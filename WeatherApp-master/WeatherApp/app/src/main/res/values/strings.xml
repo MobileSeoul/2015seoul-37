@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Seoul Mountain</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_camera">Camera</string>
+    <string name="title_activity_stopwatch">Stopwatch</string>
+    <string name="title_activity_main2">MtoM</string>
+    <string name="title_activity_mountain_list">국내 산 날씨</string>
+    <string name="title_activity_bm">Bm</string>
+    <string name="title_activity_bmap">Bmap</string>
+    <string name="title_activity_smap">Smap</string>
+    <string name="title_activity_amap">Amap</string>
+    <string name="title_activity_cmap">Cmap</string>
+    <string name="title_activity_b1map">B1map</string>
+
+</resources>

@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Widget.AppCompat.ActionBar.TabView">
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <style name="tempStyle" parent="@android:style/TextAppearance.Large">
+        <item name = "android:textColor">#2E9AFE</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name ="valData" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#74DF00</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tempMin" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#0000FF</item>
+    </style>
+
+    <style name="tempMax" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+    <style name="Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2dip</item>
+    </style>
+
+    <style name="Button.Menu" parent="Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:lines">1</item>
+        <item name="android:onClick">onButtonClick</item>
+    </style>
+
+    <style name="Button.Settings" parent="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:onClick">onClearClick</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:paddingTop">0sp</item>
+        <item name="android:paddingBottom">0sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>
+
